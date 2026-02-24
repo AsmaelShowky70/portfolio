@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ismail Mohamed | Backend Engineer &amp; ASP.NET Core Developer</title>
+  <meta name="description"
+    content="Ismail Mohamed – Backend Engineer crafting scalable APIs & modern web applications with ASP.NET Core, Entity Framework Core, and SQL Server." />
+  <meta name="keywords"
+    content="Ismail Mohamed, ASP.NET Core Developer, Backend Engineer, Web Developer, REST API, C#, SQL Server" />
+  <meta name="author" content="Ismail Mohamed" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Ismail Mohamed | Backend Engineer" />
+  <meta property="og:description" content="Backend Engineer crafting scalable APIs & modern web applications." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://ismailmohamed.dev" />
+
+  <!-- Favicon -->
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>" />
+
+  <!-- Google Font preload -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <!-- ============ NAVBAR ============ -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="#" class="nav-logo">Ismail<span>.dev</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#github" class="nav-link">GitHub</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ============ HERO SECTION ============ -->
+  <section class="hero section-padding" id="hero">
+    <div class="hero-grid-bg"></div>
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="pulse-dot"></span>
+          Available for opportunities
+        </div>
+        <h1>
+          Backend Engineer Crafting<br />
+          <span class="highlight">Scalable APIs</span> &amp;<br />
+          Modern Web Applications
+        </h1>
+        <div class="typing-wrapper">
+          &gt; <span class="typing-text" id="typingText"></span>
+        </div>
+        <p class="hero-description">
+          I'm Ismail Mohamed, a passionate Backend Engineer specialized in ASP.NET Core.
+          I build production-ready RESTful APIs, scalable web applications, and clean
+          backend architectures that power real-world solutions.
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary" id="btnViewProjects">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+              <line x1="8" y1="21" x2="16" y2="21"></line>
+              <line x1="12" y1="17" x2="12" y2="21"></line>
+            </svg>
+            View Projects
+          </a>
+          <a href="https://github.com/AsmaelShowky70" target="_blank" rel="noopener" class="btn btn-outline"
+            id="btnGithub">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+            </svg>
+            View GitHub
+          </a>
+          <a href="#contact" class="btn btn-ghost" id="btnContact">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+              <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+            Contact Me
+          </a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat-item">
+            <div class="stat-number">2+</div>
+            <div class="stat-label">Live Projects</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">5+</div>
+            <div class="stat-label">Technologies</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">100%</div>
+            <div class="stat-label">Deployed</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hero Profile Photo -->
+      <div class="hero-visual">
+        <div class="profile-card">
+          <div class="profile-photo-wrapper">
+            <div class="profile-photo-ring"></div>
+            <img src="img/profile.jpg" alt="Ismail Mohamed" class="profile-photo" />
+          </div>
+          <h3 class="profile-name" id="profileName">Ismail Mohamed</h3>
+          <p class="profile-title">Backend Engineer</p>
+          <div class="profile-status">
+            <span class="pulse-dot"></span>
+            Open to Work
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT SECTION ============ -->
+  <section class="about section-padding" id="about">
+    <div class="container">
+      <div class="section-label">About Me</div>
+      <h2 class="section-title">Building the Backend<br />That Powers the Web</h2>
+      <p class="section-subtitle">
+        Specialized in designing and developing scalable server-side solutions,
+        RESTful APIs, and production-ready applications.
+      </p>
+
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>
+            I'm a <strong>Backend-focused Software Engineer</strong> with deep expertise in
+            <strong>ASP.NET Core</strong>, <strong>Entity Framework Core</strong>, and
+            <strong>SQL Server</strong>. I specialize in building production-ready REST APIs
+            and full-stack web applications with clean architecture principles.
+          </p>
+          <p>
+            My approach centers on writing <strong>clean, maintainable code</strong> following
+            SOLID principles, repository patterns, and layered architecture. I understand
+            the full lifecycle — from database design to API documentation with Swagger,
+            to deployment on real hosting environments.
+          </p>
+          <p>
+            I don't just build local demos — my projects are <strong>deployed and live</strong>,
+            demonstrating real-world backend skills including authentication systems,
+            DTO mappings, and RESTful endpoint design.
+          </p>
+
+          <div class="about-highlights">
+            <div class="highlight-item">
+              <div class="highlight-icon">🏗️</div>
+              <div>
+                <h4>Clean Architecture</h4>
+                <p>MVC & layered patterns with separation of concerns</p>
+              </div>
+            </div>
+            <div class="highlight-item">
+              <div class="highlight-icon">🔒</div>
+              <div>
+                <h4>Auth & Security</h4>
+                <p>Identity, JWT, and authorization systems</p>
+              </div>
+            </div>
+            <div class="highlight-item">
+              <div class="highlight-icon">🚀</div>
+              <div>
+                <h4>Production Deployed</h4>
+                <p>Real applications hosted on public servers</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills-grid reveal">
+          <div class="skill-card">
+            <div class="skill-icon">⚙️</div>
+            <h4>ASP.NET Core</h4>
+            <span>Web API &amp; MVC</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">🗄️</div>
+            <h4>EF Core</h4>
+            <span>ORM &amp; Migrations</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">🛢️</div>
+            <h4>SQL Server</h4>
+            <span>Database Design</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">🔌</div>
+            <h4>REST APIs</h4>
+            <span>Swagger &amp; Docs</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">🔐</div>
+            <h4>Auth</h4>
+            <span>Identity &amp; JWT</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">🎨</div>
+            <h4>Bootstrap</h4>
+            <span>Responsive UI</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">📦</div>
+            <h4>Git &amp; GitHub</h4>
+            <span>Version Control</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">🌐</div>
+            <h4>WordPress</h4>
+            <span>WooCommerce</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">☁️</div>
+            <h4>Deployment</h4>
+            <span>Hosting &amp; CI</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS SECTION ============ -->
+  <section class="projects section-padding" id="projects">
+    <div class="container">
+      <div class="section-label">Featured Work</div>
+      <h2 class="section-title">Production Projects</h2>
+      <p class="section-subtitle">
+        Real-world applications built, tested, and deployed to live hosting environments.
+      </p>
+
+      <div class="projects-grid">
+
+        <!-- Project 1: Sugo Backend API -->
+        <div class="project-card reveal" id="project-sugo">
+          <div class="project-info">
+            <div class="project-number">Project 01</div>
+            <h3>Sugo Backend API</h3>
+            <p class="project-desc">
+              A production-ready ASP.NET Core Web API built with clean architecture principles.
+              Features authentication, full CRUD operations, DTO mappings, and comprehensive
+              Swagger documentation — deployed live on runasp.net.
+            </p>
+            <div class="project-tech">
+              <span class="tech-badge">ASP.NET Core API</span>
+              <span class="tech-badge">EF Core</span>
+              <span class="tech-badge">SQL Server</span>
+              <span class="tech-badge">Swagger</span>
+              <span class="tech-badge">REST</span>
+            </div>
+            <div class="project-highlights">
+              <h4>Key Features</h4>
+              <ul>
+                <li>Authentication System</li>
+                <li>CRUD Operations</li>
+                <li>DTO Data Mapping</li>
+                <li>Swagger API Docs</li>
+                <li>RESTful Design</li>
+                <li>Live Deployment</li>
+              </ul>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/AsmaelShowky70/SugoBackend-Api-.git" target="_blank" rel="noopener"
+                class="btn btn-outline" id="sugo-github">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                </svg>
+                Source Code
+              </a>
+              <a href="http://sugobackend.runasp.net/swagger/index.html" target="_blank" rel="noopener"
+                class="btn btn-primary" id="sugo-live">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+                Live Swagger
+              </a>
+            </div>
+          </div>
+          <div class="project-mockup">
+            <div class="mockup-container">
+              <div class="mockup-browser">
+                <div class="mockup-browser-header">
+                  <div class="dots">
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                  </div>
+                  <div class="mockup-url-bar">sugobackend.runasp.net/swagger</div>
+                </div>
+                <div class="mockup-browser-body">
+                  <img src="img/sugo-screenshot.webp" alt="Sugo Backend API – Swagger Documentation" loading="lazy"
+                    id="sugo-img" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2: LapShop -->
+        <div class="project-card reveal" id="project-lapshop">
+          <div class="project-info">
+            <div class="project-number">Project 02</div>
+            <h3>LapShop – E-Commerce</h3>
+            <p class="project-desc">
+              A fully functional ASP.NET Core MVC e-commerce website featuring product listing,
+              responsive UI with Bootstrap, repository pattern architecture, and database
+              integration — deployed live on runasp.net.
+            </p>
+            <div class="project-tech">
+              <span class="tech-badge">ASP.NET Core MVC</span>
+              <span class="tech-badge">Razor Views</span>
+              <span class="tech-badge">Bootstrap</span>
+              <span class="tech-badge">SQL Server</span>
+              <span class="tech-badge">Repository Pattern</span>
+            </div>
+            <div class="project-highlights">
+              <h4>Key Features</h4>
+              <ul>
+                <li>Product Listing</li>
+                <li>Responsive UI</li>
+                <li>Clean MVC Structure</li>
+                <li>Repository Pattern</li>
+                <li>Database Integration</li>
+                <li>Live Deployment</li>
+              </ul>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/AsmaelShowky70/LapShop.git" target="_blank" rel="noopener"
+                class="btn btn-outline" id="lapshop-github">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                </svg>
+                Source Code
+              </a>
+              <a href="https://lapshope.runasp.net/" target="_blank" rel="noopener" class="btn btn-primary"
+                id="lapshop-live">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+                Live Demo
+              </a>
+            </div>
+          </div>
+          <div class="project-mockup">
+            <div class="mockup-container">
+              <div class="mockup-browser">
+                <div class="mockup-browser-header">
+                  <div class="dots">
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                  </div>
+                  <div class="mockup-url-bar">lapshope.runasp.net</div>
+                </div>
+                <div class="mockup-browser-body">
+                  <img src="img/lapshop-screenshot.webp" alt="LapShop – E-Commerce Homepage" loading="lazy"
+                    id="lapshop-img" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ GITHUB SECTION ============ -->
+  <section class="github-section section-padding" id="github">
+    <div class="container">
+      <div class="github-header">
+        <div>
+          <div class="section-label">Open Source</div>
+          <h2 class="section-title">GitHub Repositories</h2>
+          <p class="section-subtitle">
+            Explore my public repositories — clean commits, structured folders, and proper documentation.
+          </p>
+        </div>
+        <a href="https://github.com/AsmaelShowky70" target="_blank" rel="noopener" class="btn btn-outline"
+          id="github-profile-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+          </svg>
+          View GitHub Profile
+        </a>
+      </div>
+
+      <div class="github-repos" id="githubRepos">
+        <!-- Repos will be loaded dynamically via JS, with static fallbacks below -->
+        <div class="repo-card" id="repo-sugo">
+          <div class="repo-card-header">
+            <div class="repo-icon">📂</div>
+            <h4>SugoBackend-Api-</h4>
+          </div>
+          <p class="repo-desc">Production-ready ASP.NET Core Web API with clean architecture, authentication, CRUD, and
+            Swagger documentation.</p>
+          <div class="repo-card-footer">
+            <div class="repo-lang"><span class="repo-lang-dot csharp"></span> C#</div>
+            <div class="repo-stat">⭐ Public</div>
+          </div>
+        </div>
+        <div class="repo-card" id="repo-lapshop">
+          <div class="repo-card-header">
+            <div class="repo-icon">📂</div>
+            <h4>LapShop</h4>
+          </div>
+          <p class="repo-desc">Full-featured ASP.NET Core MVC e-commerce website with Bootstrap, repository pattern, and
+            database integration.</p>
+          <div class="repo-card-footer">
+            <div class="repo-lang"><span class="repo-lang-dot csharp"></span> C#</div>
+            <div class="repo-stat">⭐ Public</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT SECTION ============ -->
+  <section class="contact section-padding" id="contact">
+    <div class="container">
+      <div class="section-label">Get In Touch</div>
+      <h2 class="section-title">Let's Work Together</h2>
+      <p class="section-subtitle">
+        Have a project in mind or want to collaborate? I'd love to hear from you.
+      </p>
+
+      <div class="contact-wrapper">
+        <div class="contact-info reveal">
+          <h3>Contact Information</h3>
+          <p>
+            I'm currently open to new opportunities and collaborations.
+            Feel free to reach out through any of the channels below.
+          </p>
+          <div class="contact-links">
+            <a href="mailto:asmaelmohamed2025@gmail.com" class="contact-link-item" id="contact-email">
+              <div class="contact-link-icon">✉️</div>
+              <div>
+                <h4>Email</h4>
+                <span>asmaelmohamed2025@gmail.com</span>
+              </div>
+            </a>
+            <a href="https://github.com/AsmaelShowky70" target="_blank" rel="noopener" class="contact-link-item"
+              id="contact-github">
+              <div class="contact-link-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                </svg>
+              </div>
+              <div>
+                <h4>GitHub</h4>
+                <span>AsmaelShowky70</span>
+              </div>
+            </a>
+            <a href="https://linkedin.com/in/" target="_blank" rel="noopener" class="contact-link-item"
+              id="contact-linkedin">
+              <div class="contact-link-icon">💼</div>
+              <div>
+                <h4>LinkedIn</h4>
+                <span>Connect on LinkedIn</span>
+              </div>
+            </a>
+            <a href="https://wa.me/201024275208" target="_blank" rel="noopener" class="contact-link-item"
+              id="contact-whatsapp">
+              <div class="contact-link-icon">💬</div>
+              <div>
+                <h4>WhatsApp</h4>
+                <span>+20 102 427 5208</span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="contact-cta reveal">
+          <h3>Ready to Build <span class="gradient-text">Something Great?</span></h3>
+          <p>
+            Whether it's a REST API, a full-stack web application, or a backend
+            system — I'm here to bring your ideas to life.
+          </p>
+          <a href="mailto:asmaelmohamed2025@gmail.com" class="btn btn-primary" id="cta-email-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+              <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+            Send an Email
+          </a>
+          <a href="cv.html" class="btn btn-ghost" id="download-cv-btn" style="margin-top: 12px;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"></path>
+              <polyline points="7 10 12 15 17 10"></polyline>
+              <line x1="12" y1="15" x2="12" y2="3"></line>
+            </svg>
+            Download CV
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-text">
+        &copy; 2026 Ismail<span>.</span>dev — Built with passion &amp; ASP.NET Core mindset
+      </div>
+      <div class="footer-links">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#github">GitHub</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <a href="#hero" class="back-to-top" id="backToTop" aria-label="Back to top">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="18 15 12 9 6 15"></polyline>
+        </svg>
+      </a>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

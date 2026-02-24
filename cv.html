@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ismail Mohamed – CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+    <style>
+        *,
+        *::before,
+        *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            font-family: 'Inter', 'Segoe UI', sans-serif;
+            background: #f4f6f8;
+            color: #1e293b;
+            -webkit-print-color-adjust: exact !important;
+            print-color-adjust: exact !important;
+        }
+
+        /* ===== CV Page – fixed A4 dimensions ===== */
+        .cv-page {
+            width: 794px;
+            /* A4 at 96dpi */
+            height: 1123px;
+            /* A4 at 96dpi */
+            margin: 20px auto;
+            background: #fff;
+            box-shadow: 0 4px 24px rgba(0, 0, 0, 0.12);
+            overflow: hidden;
+            position: relative;
+        }
+
+        /* ===== Two-column layout using absolute positioning (print-safe) ===== */
+        .sidebar {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 220px;
+            height: 100%;
+            background: #0a1628;
+            color: #e2e8f0;
+            padding: 34px 20px 24px;
+        }
+
+        .main-content {
+            margin-left: 220px;
+            padding: 34px 28px 24px;
+        }
+
+        /* ===== SIDEBAR STYLES ===== */
+        .sidebar-photo {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 3px solid #00d4ff;
+            object-fit: cover;
+            object-position: center top;
+            margin: 0 auto 8px;
+            display: block;
+        }
+
+        .sidebar-name {
+            text-align: center;
+            font-size: 15px;
+            font-weight: 800;
+            color: #fff;
+        }
+
+        .sidebar-title {
+            text-align: center;
+            font-size: 9.5px;
+            color: #00d4ff;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            margin-top: 2px;
+            margin-bottom: 20px;
+        }
+
+        .side-section {
+            margin-bottom: 18px;
+        }
+
+        .side-section h3 {
+            font-size: 9px;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: #00d4ff;
+            margin-bottom: 8px;
+            padding-bottom: 4px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+        }
+
+        .contact-item {
+            display: table;
+            width: 100%;
+            margin-bottom: 7px;
+            font-size: 8.5px;
+            color: #cbd5e1;
+            line-height: 1.35;
+        }
+
+        .ci-icon {
+            display: table-cell;
+            width: 16px;
+            vertical-align: top;
+            font-size: 10px;
+            padding-top: 1px;
+        }
+
+        .ci-text {
+            display: table-cell;
+            vertical-align: top;
+        }
+
+        .contact-item a {
+            color: #cbd5e1;
+            text-decoration: none;
+        }
+
+        .skill-list {
+            list-style: none;
+        }
+
+        .skill-list li {
+            font-size: 9px;
+            padding: 2.5px 0;
+            color: #e2e8f0;
+            padding-left: 12px;
+            position: relative;
+        }
+
+        .skill-list li::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 7px;
+            width: 5px;
+            height: 5px;
+            border-radius: 50%;
+            background: #00d4ff;
+        }
+
+        .lang-item {
+            font-size: 9px;
+            color: #e2e8f0;
+            margin-bottom: 3px;
+        }
+
+        .lang-item strong {
+            color: #fff;
+        }
+
+        /* ===== MAIN CONTENT STYLES ===== */
+        .main-section {
+            margin-bottom: 16px;
+        }
+
+        .main-section h2 {
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: #0077b6;
+            margin-bottom: 8px;
+            padding-bottom: 4px;
+            border-bottom: 2px solid #e2e8f0;
+        }
+
+        .summary-text {
+            font-size: 10px;
+            color: #475569;
+            line-height: 1.65;
+        }
+
+        .skills-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 9.5px;
+        }
+
+        .skills-table td {
+            padding: 4px 0;
+            vertical-align: top;
+            color: #334155;
+        }
+
+        .skills-table td:first-child {
+            width: 90px;
+            font-weight: 700;
+            color: #1e293b;
+        }
+
+        .project-block {
+            margin-bottom: 12px;
+        }
+
+        .project-block:last-child {
+            margin-bottom: 0;
+        }
+
+        .project-header {
+            margin-bottom: 2px;
+        }
+
+        .project-header h3 {
+            font-size: 11px;
+            font-weight: 700;
+            color: #1e293b;
+            display: inline;
+        }
+
+        .project-link {
+            font-size: 8.5px;
+            color: #0077b6;
+            font-weight: 500;
+            float: right;
+            margin-top: 2px;
+        }
+
+        .project-tech-line {
+            font-size: 8.5px;
+            color: #94a3b8;
+            font-style: italic;
+            margin-bottom: 3px;
+            clear: both;
+        }
+
+        .project-block ul {
+            padding-left: 15px;
+            font-size: 9.5px;
+            color: #475569;
+            line-height: 1.55;
+        }
+
+        .project-block li {
+            margin-bottom: 1px;
+        }
+
+
+        .badge {
+            display: inline-block;
+            padding: 2px 9px;
+            background: #f0f7ff;
+            border: 1px solid #d0e4f7;
+            border-radius: 8px;
+            font-size: 8.5px;
+            color: #0077b6;
+            font-weight: 500;
+            margin: 0 3px 4px 0;
+        }
+
+        /* ===== Download Bar ===== */
+        .download-bar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: #0a1628;
+            padding: 12px 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 16px;
+            z-index: 100;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        .download-bar p {
+            color: #e2e8f0;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        .download-bar .btn-dl {
+            padding: 10px 24px;
+            background: linear-gradient(135deg, #00d4ff, #7b61ff);
+            color: #0a1628;
+            border: none;
+            border-radius: 50px;
+            font-size: 14px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+            font-family: inherit;
+        }
+
+        .download-bar .btn-dl:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 20px rgba(0, 212, 255, 0.4);
+        }
+
+        .download-bar .btn-back {
+            padding: 10px 20px;
+            background: transparent;
+            color: #94a3b8;
+            border: 1px solid #334155;
+            border-radius: 50px;
+            font-size: 13px;
+            font-weight: 500;
+            cursor: pointer;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+
+        .download-bar .btn-back:hover {
+            color: #fff;
+            border-color: #fff;
+        }
+
+        /* ===== PRINT STYLES ===== */
+        @media print {
+            @page {
+                size: A4;
+                margin: 0;
+            }
+
+            html,
+            body {
+                background: #fff !important;
+                width: 210mm;
+                height: 297mm;
+            }
+
+            .download-bar {
+                display: none !important;
+            }
+
+            .cv-page {
+                width: 210mm !important;
+                height: 297mm !important;
+                margin: 0 !important;
+                box-shadow: none !important;
+                page-break-after: avoid;
+            }
+
+            .sidebar {
+                position: absolute !important;
+                top: 0 !important;
+                left: 0 !important;
+                width: 58mm !important;
+                height: 297mm !important;
+                background: #0a1628 !important;
+                -webkit-print-color-adjust: exact !important;
+                print-color-adjust: exact !important;
+            }
+
+            .main-content {
+                margin-left: 58mm !important;
+            }
+
+            .badge {
+                background: #f0f7ff !important;
+                border: 1px solid #d0e4f7 !important;
+                -webkit-print-color-adjust: exact !important;
+                print-color-adjust: exact !important;
+            }
+
+            .skill-list li::before {
+                background: #00d4ff !important;
+                -webkit-print-color-adjust: exact !important;
+                print-color-adjust: exact !important;
+            }
+        }
+
+        @media (max-width: 800px) {
+            .cv-page {
+                width: 100%;
+                height: auto;
+            }
+
+            .sidebar {
+                position: relative;
+                width: 100%;
+                height: auto;
+            }
+
+            .main-content {
+                margin-left: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Top Bar -->
+    <div class="download-bar">
+        <p>Ismail Mohamed – CV</p>
+        <button class="btn-dl" onclick="window.print()">&#11015; Save as PDF</button>
+        <a href="index.html" class="btn-back">&larr; Back to Portfolio</a>
+    </div>
+
+    <!-- CV Page -->
+    <div class="cv-page" id="cvPage" style="margin-top: 70px;">
+
+        <!-- SIDEBAR -->
+        <div class="sidebar">
+            <img src="img/profile.jpg" alt="Ismail Mohamed" class="sidebar-photo" />
+            <div class="sidebar-name">Ismail Mohamed</div>
+            <div class="sidebar-title">Backend Engineer</div>
+
+            <!-- Contact -->
+            <div class="side-section">
+                <h3>Contact</h3>
+                <div class="contact-item">
+                    <span class="ci-icon">&#9993;</span>
+                    <span class="ci-text"><a
+                            href="mailto:asmaelmohamed2025@gmail.com">asmaelmohamed2025<br>@gmail.com</a></span>
+                </div>
+                <div class="contact-item">
+                    <span class="ci-icon">&#9742;</span>
+                    <span class="ci-text">+20 102 427 5208</span>
+                </div>
+                <div class="contact-item">
+                    <span class="ci-icon">&#9741;</span>
+                    <span class="ci-text"><a
+                            href="https://github.com/AsmaelShowky70">github.com/<br>AsmaelShowky70</a></span>
+                </div>
+                <div class="contact-item">
+                    <span class="ci-icon">&#9993;</span>
+                    <span class="ci-text"><a href="https://wa.me/201024275208">WhatsApp</a></span>
+                </div>
+            </div>
+
+            <!-- Skills -->
+            <div class="side-section">
+                <h3>Core Skills</h3>
+                <ul class="skill-list">
+                    <li>ASP.NET Core Web API</li>
+                    <li>ASP.NET Core MVC</li>
+                    <li>Entity Framework Core</li>
+                    <li>SQL Server</li>
+                    <li>RESTful APIs</li>
+                    <li>Swagger / OpenAPI</li>
+                    <li>Authentication &amp; JWT</li>
+                    <li>Repository Pattern</li>
+                    <li>Bootstrap</li>
+                    <li>Git &amp; GitHub</li>
+                    <li>WordPress / WooCommerce</li>
+                </ul>
+            </div>
+
+            <!-- Languages -->
+            <div class="side-section">
+                <h3>Languages</h3>
+                <div class="lang-item"><strong>Arabic</strong> &mdash; Native</div>
+                <div class="lang-item"><strong>English</strong> &mdash; Professional</div>
+            </div>
+        </div>
+
+        <!-- MAIN CONTENT -->
+        <div class="main-content">
+
+            <div class="main-section">
+                <h2>Professional Summary</h2>
+                <p class="summary-text">
+                    Backend-focused Software Engineer with strong expertise in <strong>ASP.NET Core</strong>,
+                    <strong>Entity Framework Core</strong>, and <strong>SQL Server</strong>. Experienced in building
+                    production-ready RESTful APIs and full-stack web applications using clean architecture principles.
+                    Passionate about writing maintainable code following SOLID principles, repository patterns, and
+                    layered architecture. Proven ability to deploy and maintain real applications on production
+                    hosting environments.
+                </p>
+            </div>
+
+            <div class="main-section">
+                <h2>Technical Skills</h2>
+                <table class="skills-table">
+                    <tr>
+                        <td>Backend</td>
+                        <td>ASP.NET Core Web API, ASP.NET Core MVC, C#, Entity Framework Core, LINQ</td>
+                    </tr>
+                    <tr>
+                        <td>Database</td>
+                        <td>SQL Server, Database Design, Migrations, Stored Procedures</td>
+                    </tr>
+                    <tr>
+                        <td>API &amp; Auth</td>
+                        <td>RESTful APIs, Swagger/OpenAPI, JWT, ASP.NET Identity, Authorization</td>
+                    </tr>
+                    <tr>
+                        <td>Frontend</td>
+                        <td>HTML5, CSS3, JavaScript, Bootstrap, Razor Views</td>
+                    </tr>
+                    <tr>
+                        <td>Tools</td>
+                        <td>Git, GitHub, Visual Studio, VS Code, Clean Architecture, SOLID, DTO Pattern</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="main-section">
+                <h2>Projects</h2>
+                <div class="project-block">
+                    <div class="project-header">
+                        <h3>Sugo Backend API</h3>
+                        <span class="project-link">sugobackend.runasp.net</span>
+                    </div>
+                    <div class="project-tech-line">ASP.NET Core Web API &middot; Entity Framework Core &middot; SQL
+                        Server &middot; Swagger</div>
+                    <ul>
+                        <li>Built a production-ready RESTful Web API with clean architecture, deployed to live hosting
+                        </li>
+                        <li>Implemented authentication system, full CRUD operations, and DTO data mapping</li>
+                        <li>Created comprehensive API documentation using Swagger/OpenAPI specification</li>
+                        <li>Repository: github.com/AsmaelShowky70/SugoBackend-Api-</li>
+                    </ul>
+                </div>
+                <div class="project-block">
+                    <div class="project-header">
+                        <h3>LapShop &mdash; E-Commerce Website</h3>
+                        <span class="project-link">lapshope.runasp.net</span>
+                    </div>
+                    <div class="project-tech-line">ASP.NET Core MVC &middot; Razor Views &middot; Bootstrap &middot; SQL
+                        Server &middot; Repository Pattern</div>
+                    <ul>
+                        <li>Developed a full-featured e-commerce site with product listing, responsive UI, and admin
+                            tools</li>
+                        <li>Implemented repository pattern for clean separation of data access and business logic</li>
+                        <li>Built responsive frontend with Bootstrap and Razor Views, deployed to production</li>
+                        <li>Repository: github.com/AsmaelShowky70/LapShop</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="main-section">
+                <h2>Key Competencies</h2>
+                <div class="badges">
+                    <span class="badge">Clean Architecture</span>
+                    <span class="badge">API Design</span>
+                    <span class="badge">Database Design</span>
+                    <span class="badge">Auth &amp; Security</span>
+                    <span class="badge">Production Deployment</span>
+                    <span class="badge">Problem Solving</span>
+                    <span class="badge">Version Control</span>
+                    <span class="badge">SOLID Principles</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
