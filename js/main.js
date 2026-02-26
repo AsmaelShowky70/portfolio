@@ -166,6 +166,62 @@ document.addEventListener('DOMContentLoaded', () => {
 
   fetchGitHubRepos();
 
+  // ---------- Dynamic Live Projects Count ----------
+  function updateLiveProjectsCount() {
+    const projectsGrid = document.querySelector('.projects-grid');
+    if (projectsGrid) {
+      const projectCards = projectsGrid.querySelectorAll('.project-card');
+      const countElement = document.getElementById('liveProjectsCount');
+      if (countElement && projectCards.length > 0) {
+        countElement.textContent = projectCards.length;
+      }
+    }
+  }
+
+  updateLiveProjectsCount();
+
+  // ---------- Profile Views Counter (Simulated / LocalStorage) ----------
+  function initProfileViews() {
+    const viewsElement = document.getElementById('profileViewsCount');
+    if (!viewsElement) return;
+
+    // Base number of views to look realistic
+    let baseViews = 1250;
+
+    // Check local storage for the user's visits
+    let userVisits = localStorage.getItem('ismail_portfolio_visits');
+
+    if (!userVisits) {
+      userVisits = 1;
+    } else {
+      userVisits = parseInt(userVisits) + 1;
+    }
+
+    localStorage.setItem('ismail_portfolio_visits', userVisits);
+
+    // Total displayed views = base views + the user's local visits (simulated backend)
+    const totalViews = baseViews + userVisits;
+
+    // Animate the counter
+    animateValue(viewsElement, baseViews, totalViews, 1000);
+  }
+
+  // Helper function to animate numbers
+  function animateValue(obj, start, end, duration) {
+    let startTimestamp = null;
+    const step = (timestamp) => {
+      if (!startTimestamp) startTimestamp = timestamp;
+      const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+      obj.innerHTML = Math.floor(progress * (end - start) + start).toLocaleString();
+      if (progress < 1) {
+        window.requestAnimationFrame(step);
+      }
+    };
+    window.requestAnimationFrame(step);
+  }
+
+  initProfileViews();
+
   // ---------- Smooth scroll for nav links (fallback for older browsers) ----------
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
