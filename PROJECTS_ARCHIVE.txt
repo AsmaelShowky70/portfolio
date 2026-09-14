@@ -1,0 +1,280 @@
+================================================================================
+   ISMAIL MOHAMED — COMPLETE PORTFOLIO PROJECTS ARCHIVE & REFERENCE
+   ملف الأرشيف الشامل للمشاريع السابقة وروابطها البرمجية للربط المستقبلي
+================================================================================
+
+Owner: Ismail Mohamed (Full-Stack & Mobile Developer)
+Email: asmaelmohamed2025@gmail.com
+Phone / WhatsApp: +20 120 879 4479 (01208794479)
+GitHub Profile: https://github.com/AsmaelShowky70
+Live Portfolio: https://asmaelshowky70.github.io/portfolio/
+Online CV: https://asmaelshowky70.github.io/portfolio/cv.html
+
+[NOTE FOR FUTURE AI ASSISTANT / AGENT]:
+This file contains the complete catalogue of Ismail Mohamed's 10 major portfolio
+projects. When integrating these into a future portfolio, company website, or client
+showcase platform, use the exact metadata, technical descriptions, and links below.
+
+================================================================================
+PROJECT 01: Natural Snacks — Quality Control System (QMS)
+================================================================================
+- Title: Quality Management & Assurance Industrial Platform
+- Type: Enterprise / Industrial Web Application
+- Tech Stack: React 19, Vite, Tailwind CSS, Lucide Icons, Modern JavaScript (ES6+)
+- Live Demo: https://asmaelshowky70.github.io/Quality-Control-Natural-snacks/
+- GitHub Repository: https://github.com/AsmaelShowky70/Quality-Control-Natural-snacks.git
+- Local Screenshot in Portfolio: img/qc-screenshot.png
+- Description (EN):
+  A comprehensive real-time industrial Quality Management and Assurance (QMS) dashboard
+  developed for food manufacturing facilities (Natural Snacks). The system tracks quality
+  parameters across 15 extruder production stages, calculates live OEE (Overall Equipment
+  Effectiveness), logs critical anomaly alerts and sensor thresholds, and provides
+  structured Non-Conformance Incident Reporting (NCR) with role-based validation.
+- Description (AR):
+  منصة صناعية متكاملة لإدارة ومراقبة الجودة (QMS) لمصانع الأغذية (Natural Snacks).
+  تتابع مراحل خطوط الإنتاج الـ 15 للبثق (Extruder)، وحساب مؤشرات الكفاءة التشغيلية (OEE)
+  بشكل لحظي، وتسجيل إنذارات الانحرافات وحالات عدم المطابقة (NCR)، ومؤشرات جودة التعبئة والتغليف.
+- Key Highlights:
+  * 15-Stage Extruder Line Monitoring
+  * Real-Time OEE & Quality Metrics Calculation
+  * Anomaly Alert Logging & Audit Trail
+  * Interactive Analytics Charts & Dark Industrial Dashboard UI
+  * Responsive & Lightweight Static Deployment on GitHub Pages
+
+================================================================================
+PROJECT 02: Natural Snacks — HR & Payroll Management System
+================================================================================
+- Title: Integrated Factory HR, Attendance & Payroll System
+- Type: Enterprise Human Resources & Accounting Web Application
+- Tech Stack: HTML5, CSS3, JavaScript (ES6+), LocalStorage, Offline-First Architecture
+- Live Demo: https://asmaelshowky70.github.io/HR-NaturalSnaks/
+- GitHub Repository: https://github.com/AsmaelShowky70/HR-NaturalSnaks.git
+- Local Screenshot in Portfolio: img/hr-screenshot.png
+- Description (EN):
+  An offline-first, enterprise-ready Arabic HR and payroll management system engineered
+  for factory workforces, technicians, and contractor labor. It handles automated
+  attendance across rotating shifts, complex net wage calculations including overtime,
+  deductions, and advances, petty cash and custody tracking, with instant client-side
+  export to Excel and PDF without external server dependencies.
+- Description (AR):
+  نظام موارد بشرية ومحاسبة عمالة متكامل وموجه للعمل دون إنترنت (Offline-First) باللغة العربية
+  لمصانع Natural Snacks. يدير سجلات حضور وانصراف الورديات، واحتساب الرواتب والبدلات
+  والاستقطاعات والسلف والعهد المالية تلقائياً، مع دعم التصدير الفوري لملفات Excel و PDF.
+- Key Highlights:
+  * Multi-Shift Attendance Matrix & Worker Records
+  * Automated Daily/Monthly Wage & Penalty Calculations
+  * Petty Cash, Custody & Loan Balances Tracking
+  * Client-Side Instant Export to Excel & PDF
+  * Zero-Latency Local Storage with Guided User Onboarding
+
+================================================================================
+PROJECT 03: CodeUp — Tech Academy & Learning Platform
+================================================================================
+- Title: Interactive Full-Stack Coding Academy Platform
+- Type: EdTech Web Application & Student LMS
+- Tech Stack: React 19, Tailwind CSS, Framer Motion, ASP.NET Core Web API, C#, REST API
+- Live Demo: https://asmaelshowky70.github.io/CodeUp/
+- GitHub Repository: https://github.com/AsmaelShowky70/CodeUp.git
+- Local Screenshot in Portfolio: img/codeup-screenshot.png
+- Description (EN):
+  An interactive full-stack learning and assessment platform for coding students and
+  secondary school programming curricula. Features interactive lesson streaming,
+  automated multiple-choice quiz engines with real-time feedback and confetti celebration,
+  student activation codes, comprehensive track progression, and fluid motion animations.
+- Description (AR):
+  منصة تعليمية وبرمجية تفاعلية متكاملة لطلاب ومناهج البرمجة والتكنولوجيا.
+  تتميز بمسارات تعليمية منظمة، ونظام اختبارات وتقييم فوري مع تأثيرات احتفالية عند الإجابة الصحيحة،
+  ومشغل محاضرات فيديو، ونظام تفعيل الحسابات بأكواد فريدة، وتصميم عصري مدعوم بـ Framer Motion.
+- Key Highlights:
+  * Interactive Coding Curricula & Multi-Module Tracks
+  * Automated Instant Quiz Engine & Progress Tracking
+  * Video Lecture Catalog with Fluid UI Animations
+  * Student Activation Code Management
+  * Seamless ASP.NET Core Backend API Integration
+
+================================================================================
+PROJECT 04: LingoFlow AI — English Practice Mobile App
+================================================================================
+- Title: AI-Powered Conversational English Practice App
+- Type: Cross-Platform Mobile Application (Android / iOS)
+- Tech Stack: Flutter, Dart, ASP.NET Core API, AI Integration, Speech-to-Text, JWT Auth
+- Live Demo: (Mobile App / Android APK)
+- GitHub Repository: https://github.com/AsmaelShowky70/English-app.git
+- Local Screenshot in Portfolio: img/english-app-screenshot.png
+- Description (EN):
+  An intelligent cross-platform mobile application developed with Flutter for mastering
+  spoken English through AI-powered conversational role-play. Supports speech-to-text voice
+  messaging pipelines, customizable professional scenarios (Tech, Healthcare, Business, Travel),
+  a gamified points/rewards economy, and a secure ASP.NET Core API backend with JWT auth.
+- Description (AR):
+  تطبيق موبايل ذكي متعدد المنصات مبني بفلاتر (Flutter) لإتقان مهارات التحدث باللغة الإنجليزية
+  عبر المحادثة التفاعلية ومحاكاة الشخصيات بواسطة الذكاء الاصطناعي. يدعم الرسائل الصوتية وتحويل
+  الصوت إلى نصوص (STT)، ومواقف وسيناريوهات وظيفية متخصصة، ونظام مكافآت ونقاط، مع خادم خلفي ASP.NET Core.
+- Key Highlights:
+  * Cross-Platform Flutter Mobile Architecture (Android & iOS)
+  * AI Role-Playing Scenario Simulations & Fluency Scoring
+  * Voice & Text Messaging Pipeline (Speech-to-Text)
+  * Gamified Points, Streaks & Rewards Economy
+  * Robust ASP.NET Core Web API Backend with Token JWT Security
+
+================================================================================
+PROJECT 05: StudyAI — Intelligent AI Study Companion
+================================================================================
+- Title: Next-Generation Adaptive AI Study & Exam Platform
+- Type: AI SaaS Educational Web Platform
+- Tech Stack: Modern Web UI, JavaScript (ES6+), AI SaaS, Computer Vision, NLP & Analytics
+- Live Demo: https://asmaelshowky70.github.io/Study-Ai/
+- GitHub Repository: https://github.com/AsmaelShowky70/Study-Ai
+- Local Screenshot in Portfolio: img/studyai-screenshot.png
+- Description (EN):
+  A SaaS educational web platform combining Computer Vision, Natural Language Processing,
+  and adaptive spaced-repetition algorithms. Automatically converts complex textbooks,
+  lecture slides, and study notes into automated quizzes, flashcards, study planners,
+  and in-depth academic analytics to optimize student retention and learning speed.
+- Description (AR):
+  منصة تعليمية ذكية قائمة على الذكاء الاصطناعي ومعالجة اللغات الطبيعية (NLP) والرؤية الحاسوبية (Computer Vision).
+  تحول المناهج والملفات الأكاديمية تلقائياً إلى بنوك أسئلة واختبارات وبطاقات استذكار سريعة (Flashcards)،
+  مع جداول مذاكرة ذكية وتحليلات بيانية لقياس مستوى تقدم الطالب واستيعابه.
+- Key Highlights:
+  * Automated Material Parsing via Vision & NLP
+  * Instant Flashcard & Adaptive Quiz Generation
+  * Academic Performance Analytics & Spaced Repetition Scheduling
+  * Modern Multi-Page Responsive Web Application
+  * Live Cloud Deployment on GitHub Pages
+
+================================================================================
+PROJECT 06: Sugo — E-Commerce Backend API
+================================================================================
+- Title: Enterprise E-Commerce RESTful Web API
+- Tech Stack: ASP.NET Core Web API, C#, Entity Framework Core, SQL Server, JWT, CQRS, Swagger
+- Type: Backend Microservice / REST API Architecture
+- Live Demo / Swagger: https://sugobackend.runasp.net/swagger
+- GitHub Repository: https://github.com/AsmaelShowky70/SugoBackend-Api-.git
+- Local Screenshot in Portfolio: img/sugo-screenshot.webp
+- Description (EN):
+  A production-ready enterprise RESTful API backend engineered with ASP.NET Core and clean
+  layered architecture. Features CQRS design pattern, token-based JWT authentication,
+  role-based authorization, comprehensive CRUD endpoints, DTO auto-mapping, SQL Server
+  EF Core database migrations, and complete Swagger/OpenAPI documentation deployed live.
+- Description (AR):
+  خادم خلفي (Backend Web API) عالي الأداء لتطبيقات التجارة الإلكترونية مبني بـ ASP.NET Core
+  وفق مبادئ Clean Architecture ونمط CQRS. يتضمن نظام أمان متكامل بـ JWT، وإدارة صلاحيات المستخدمين،
+  وقاعدة بيانات SQL Server عبر Entity Framework Core، وتوثيق تفاعلي كامل بـ Swagger منشور على الإنترنت.
+- Key Highlights:
+  * Clean Layered Architecture & CQRS Pattern
+  * Secure JWT Authentication & Role-Based Access Control
+  * Entity Framework Core Code-First Migrations with SQL Server
+  * Clean DTOs, Fluent Validation & Error Handling Middleware
+  * Live Cloud API Deployment on runasp.net with Swagger UI
+
+================================================================================
+PROJECT 07: LapShop — E-Commerce Platform
+================================================================================
+- Title: Full-Featured Electronics E-Commerce Web Store
+- Type: Full-Stack E-Commerce MVC Web Application
+- Tech Stack: ASP.NET Core MVC, C#, Razor Views, Bootstrap, EF Core, SQL Server, Repository Pattern
+- Live Demo: https://lapshope.runasp.net/
+- GitHub Repository: https://github.com/AsmaelShowky70/LapShop.git
+- Local Screenshot in Portfolio: img/lapshop-screenshot.webp
+- Description (EN):
+  A robust electronics and hardware e-commerce web platform built with ASP.NET Core MVC.
+  Implements the Repository Pattern, dynamic product catalog browsing, category filtering,
+  session-backed shopping cart, order placement workflow, and a full administrative dashboard
+  for inventory, customer orders, and product management.
+- Description (AR):
+  متجر إلكتروني شامل لبيع الأجهزة والإلكترونيات مبني بتقنية ASP.NET Core MVC.
+  يطبق نمط المستودع (Repository Pattern)، ويحتوي على تصفح فئات المنتجات، وسلة تسوق،
+  وإتمام الطلبات، ولوحة تحكم متكاملة للإدارة والتحكم في المخزون والطلبات والأسعار.
+- Key Highlights:
+  * Clean MVC Structure with Repository Pattern
+  * Product Catalog, Filtering, Search & Detail Views
+  * Shopping Cart, Checkout Workflow & Order Management
+  * Administrative Control Panel for Products & Categories
+  * Relational SQL Server Database Integration Deployed Live
+
+================================================================================
+PROJECT 08: Health Care Clinic Platform
+================================================================================
+- Title: Medical Clinic & Doctor Booking Landing Portal
+- Type: Healthcare Web UI & Client Portal
+- Tech Stack: HTML5, CSS3, JavaScript (ES6+), Responsive Web Design
+- Live Demo: https://asmaelshowky70.github.io/health/
+- GitHub Repository: https://github.com/AsmaelShowky70/health.git
+- Local Screenshot in Portfolio: img/health-screenshot.png
+- Description (EN):
+  A clean, modern, and highly responsive website for a medical clinic and healthcare
+  services. Features an aesthetic healthcare theme, interactive doctor directories, medical
+  specialty showcases, patient testimonials, and an intuitive appointment booking interface.
+- Description (AR):
+  موقع ويب عصري ومتجاوب لعيادة طبية وخدمات الرعاية الصحية. يتميز بتصميم أنيق ومريح للمريض،
+  ودليل تفاعلي للأطباء والعيادات التخصصية، ونماذج حجز المواعيد السريعة، وتجربة تصفح سريعة وخفيفة.
+- Key Highlights:
+  * Professional Medical UI/UX with Clean Color Palette
+  * Interactive Doctor Profiles & Medical Departments
+  * Online Appointment Booking Form Interface
+  * Fully Responsive Across Mobile, Tablet & Desktop
+  * Fast Static Loading on GitHub Pages
+
+================================================================================
+PROJECT 09: Sugo UI — Cross-Platform Flutter Mobile App
+================================================================================
+- Title: Sugo E-Commerce Mobile Client Application
+- Type: Cross-Platform Mobile App (Android & iOS)
+- Tech Stack: Flutter, Dart, Mobile State Management, REST API Integration
+- Live Demo: (Mobile Client for Sugo Backend)
+- GitHub Repository: https://github.com/AsmaelShowky70/SugoUI.git
+- Local Screenshot in Portfolio: img/sugoui-screenshot.png
+- Description (EN):
+  A modern, high-performance mobile application built with Flutter serving as the frontend
+  client for the Sugo Backend API. Features intuitive product discovery, category browsing,
+  reactive shopping cart state management, smooth animations, and clean modular Dart code.
+- Description (AR):
+  تطبيق موبايل متجاوب وعصري تم تطويره باستخدام Flutter ليكون الواجهة الأمامية لنظام التجارة
+  الإلكترونية المتصل بـ Sugo Backend API. يوفر تصفح المنتجات وسلة الشراء وإدارة الحساب بتجربة مستخدم سلسة.
+- Key Highlights:
+  * Native Performance for iOS and Android with Flutter
+  * Seamless Connection to Sugo ASP.NET Core REST API
+  * Reactive State Management & Component-Driven UI
+  * Fluid Transitions, Micro-Interactions & Dark Palette
+
+================================================================================
+PROJECT 10: My E-Commerce Platform
+================================================================================
+- Title: Scalable ASP.NET Core E-Commerce Storefront
+- Type: Full-Stack MVC E-Commerce Application
+- Tech Stack: ASP.NET Core MVC, C#, Entity Framework Core, SQL Server, Clean Architecture
+- Live Demo: https://myecommerce.tryasp.net/
+- GitHub Repository: https://github.com/AsmaelShowky70/ECommerce
+- Local Screenshot in Portfolio: img/ecommerce-screenshot.png
+- Description (EN):
+  A complete ASP.NET Core MVC e-commerce platform built with clean layered architecture.
+  Provides a modern storefront experience, customer authentication, product management,
+  cart calculations, checkout processing, and live cloud deployment on tryasp.net.
+- Description (AR):
+  منصة تجارة إلكترونية كاملة مبنية بـ ASP.NET Core MVC ومعمارية برمجية منظمة.
+  تتضمن واجهة متجر تفاعلية، وسلة تسوق، وعملية إتمام الطلب، وإدارة المنتجات وقواعد بيانات SQL Server.
+- Key Highlights:
+  * Modern Responsive Storefront UI
+  * End-to-End Shopping Cart & Checkout Process
+  * Clean Code Architecture & Entity Framework Migrations
+  * Live Cloud Deployment on tryasp.net
+
+================================================================================
+QUICK REFERENCE TABLE / جدول مرجعي سريع
+================================================================================
+#  | Project Name       | Tech Stack                      | Live Demo / Repo
+---+--------------------+---------------------------------+------------------------------------------
+01 | Natural Snacks QMS | React 19, Vite, Tailwind        | https://asmaelshowky70.github.io/Quality-Control-Natural-snacks/
+02 | Natural Snacks HR  | JS ES6+, HTML5, CSS3            | https://asmaelshowky70.github.io/HR-NaturalSnaks/
+03 | CodeUp Academy     | React 19, ASP.NET Core API      | https://asmaelshowky70.github.io/CodeUp/
+04 | LingoFlow AI       | Flutter, Dart, ASP.NET API      | https://github.com/AsmaelShowky70/English-app.git
+05 | StudyAI Companion  | Web UI, AI SaaS, Computer Vision| https://asmaelshowky70.github.io/Study-Ai/
+06 | Sugo Backend API   | ASP.NET Core, EF Core, SQL Server| https://sugobackend.runasp.net/swagger
+07 | LapShop            | ASP.NET Core MVC, EF Core, SQL  | https://lapshope.runasp.net/
+08 | Health Care Clinic | HTML5, CSS3, JavaScript        | https://asmaelshowky70.github.io/health/
+09 | Sugo UI            | Flutter, Dart, Mobile App       | https://github.com/AsmaelShowky70/SugoUI.git
+10 | My E-Commerce      | ASP.NET Core MVC, SQL Server    | https://myecommerce.tryasp.net/
+
+================================================================================
+End of Archive File. Ready for AI ingestion in future projects.
+================================================================================
