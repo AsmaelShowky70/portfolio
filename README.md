@@ -33,6 +33,10 @@ cross-platform mobile apps, industrial systems, and backend architecture experti
 |:---:|:---:|
 | ![English App](img/english-app-screenshot.png) | ![HR Screenshot](img/hr-screenshot.png) |
 
+| Sugo Backend API (Swagger) | LapShop E-Commerce |
+|:---:|:---:|
+| ![Sugo API](img/sugo-screenshot.webp) | ![LapShop](img/lapshop-screenshot.webp) |
+
 </div>
 
 ---
@@ -112,6 +116,28 @@ portfolio/
 > Next-generation SaaS educational web platform combining Computer Vision, NLP, and adaptive learning algorithms to convert study material into automated quizzes, flashcards, and academic progress analytics.
 - 🌐 **Live Demo:** [asmaelshowky70.github.io/Study-Ai](https://asmaelshowky70.github.io/Study-Ai/)
 - 📦 **Repository:** [AsmaelShowky70/Study-Ai](https://github.com/AsmaelShowky70/Study-Ai)
+
+### 6. 🔹 Sugo — E-Commerce Backend API
+> Enterprise-grade RESTful API backend engineered with ASP.NET Core and clean architecture. Features complete CQRS design, secure JWT authentication, role-based authorization, SQL Server EF Core migrations, and Swagger documentation.
+- 📦 **Repository:** [AsmaelShowky70/SugoBackend-Api-](https://github.com/AsmaelShowky70/SugoBackend-Api-.git)
+
+### 7. 🔹 LapShop — E-Commerce Web Application
+> Full-featured electronics e-commerce store built with ASP.NET Core MVC. Features dynamic product catalogs, category filtering, cart management, and administrative dashboard.
+- 📦 **Repository:** [AsmaelShowky70/LapShop](https://github.com/AsmaelShowky70/LapShop.git)
+
+### 8. 🔹 Health Care Clinic Platform
+> Modern, responsive medical clinic landing page with interactive doctor profiles, department showcases, and online appointment booking interface.
+- 🌐 **Live Demo:** [asmaelshowky70.github.io/health](https://asmaelshowky70.github.io/health/)
+- 📦 **Repository:** [AsmaelShowky70/health](https://github.com/AsmaelShowky70/health.git)
+
+### 9. 🔹 Sugo UI — Cross-Platform Flutter Mobile App
+> Clean, responsive mobile application built with Flutter serving as the client for the Sugo Backend API. Features reactive state management and smooth UX.
+- 📦 **Repository:** [AsmaelShowky70/SugoUI](https://github.com/AsmaelShowky70/SugoUI.git)
+
+### 10. 🔹 My E-Commerce Platform
+> Complete ASP.NET Core MVC e-commerce platform with clean architecture, shopping cart, checkout workflow, and live deployment.
+- 🌐 **Live Demo:** [myecommerce.tryasp.net](https://myecommerce.tryasp.net/)
+- 📦 **Repository:** [AsmaelShowky70/ECommerce](https://github.com/AsmaelShowky70/ECommerce)
 
 ---
 
