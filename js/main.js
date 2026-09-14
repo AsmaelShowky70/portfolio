@@ -7,11 +7,12 @@ document.addEventListener('DOMContentLoaded', () => {
   // ---------- Typing Animation ----------
   const typingElement = document.getElementById('typingText');
   const titles = [
-    'ASP.NET Core Developer',
-    'Backend Engineer',
-    'REST API Specialist',
-    'Web Developer',
-    'Clean Code Advocate'
+    'Full-Stack Developer',
+    'React.js & Frontend Specialist',
+    'Node.js & Backend Engineer',
+    'ASP.NET Core Specialist',
+    'Flutter Mobile Developer',
+    'Clean Architecture Advocate'
   ];
   let titleIndex = 0;
   let charIndex = 0;
@@ -161,6 +162,8 @@ document.addEventListener('DOMContentLoaded', () => {
     if (lang === 'c#') return 'csharp';
     if (lang === 'html') return 'html';
     if (lang === 'javascript') return 'js';
+    if (lang === 'dart') return 'flutter';
+    if (lang === 'typescript') return 'ts';
     return '';
   }
 

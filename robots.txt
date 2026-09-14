@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://asmaelprotfolio.netlify.app/sitemap.xml
+Sitemap: https://asmaelshowky70.github.io/portfolio/sitemap.xml

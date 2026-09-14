@@ -1,19 +1,20 @@
 <div align="center">
 
-# ⚡ Ismail Mohamed — Portfolio Website
+# ⚡ Ismail Mohamed — Full-Stack & Mobile Developer Portfolio
 
-### Backend Engineer · ASP.NET Core Developer · Web Developer
+### Full-Stack Developer · React.js · Node.js · ASP.NET Core · Flutter
 
-A modern, high-performance personal portfolio website showcasing real production projects,
-API development skills, and backend architecture expertise.
+A modern, high-performance personal portfolio website showcasing production web applications,
+cross-platform mobile apps, industrial systems, and backend architecture expertise.
 
-[![Live Demo](https://img.shields.io/badge/🌐%20Live%20Demo-asmaelprotfolio.netlify.app-00d4ff?style=for-the-badge&logo=netlify&logoColor=white)](https://asmaelprotfolio.netlify.app/)
+[![Live Demo](https://img.shields.io/badge/🌐%20Live%20Demo-asmaelshowky70.github.io%2Fportfolio-00d4ff?style=for-the-badge&logo=github&logoColor=white)](https://asmaelshowky70.github.io/portfolio/)
 [![GitHub](https://img.shields.io/badge/GitHub-AsmaelShowky70-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AsmaelShowky70)
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Netlify](https://img.shields.io/badge/Deployed%20on-Netlify-00C7B7?style=flat-square&logo=netlify&logoColor=white)
+![React](https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
+![.NET](https://img.shields.io/badge/.NET_Core-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+![Deployed on GitHub Pages](https://img.shields.io/badge/Deployed%20on-GitHub%20Pages-181717?style=flat-square&logo=github&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 
 </div>
@@ -24,9 +25,13 @@ API development skills, and backend architecture expertise.
 
 <div align="center">
 
-| Sugo Backend API | LapShop E-Commerce |
+| Natural Snacks QMS | CodeUp Tech Academy |
 |:---:|:---:|
-| ![Sugo Screenshot](img/sugo-screenshot.webp) | ![LapShop Screenshot](img/lapshop-screenshot.webp) |
+| ![QMS Screenshot](img/qc-screenshot.png) | ![CodeUp Screenshot](img/codeup-screenshot.png) |
+
+| LingoFlow AI (Flutter) | HR & Payroll Management |
+|:---:|:---:|
+| ![English App](img/english-app-screenshot.png) | ![HR Screenshot](img/hr-screenshot.png) |
 
 </div>
 
@@ -36,12 +41,12 @@ API development skills, and backend architecture expertise.
 
 - 🎨 **Modern Dark Theme** — Deep navy background with electric cyan accents and glassmorphism effects
 - ✨ **Animated Hero Section** — Typing animation, gradient text, and circular profile photo with rotating ring
-- 📂 **Featured Projects** — Showcasing real deployed projects with browser mockup screenshots
+- 📂 **Featured Projects** — Showcasing real deployed industrial, educational, and mobile platforms with live browser mockups
 - 🔗 **GitHub Integration** — Dynamic repo fetching via GitHub REST API with static fallback
-- 📄 **One-Page CV** — Professional CV page with "Save as PDF" functionality
+- 📄 **One-Page CV** — Professional print-ready CV page with "Save as PDF" functionality
 - 📱 **Fully Responsive** — Mobile-first design with hamburger menu and adaptive layouts
-- ⚡ **Performance Optimized** — Lazy loading, semantic HTML, and optimized assets
-- 🔍 **SEO Ready** — Meta tags, Open Graph, sitemap.xml, and proper heading hierarchy
+- ⚡ **Performance Optimized** — Optimized assets, semantic HTML, and zero build tool overhead
+- 🔍 **SEO Ready** — Open Graph tags, canonical URLs, sitemap.xml, and structured Person schema
 
 ---
 
@@ -49,14 +54,12 @@ API development skills, and backend architecture expertise.
 
 | Category | Technologies |
 |----------|-------------|
-| **Structure** | HTML5, Semantic Elements |
-| **Styling** | CSS3, Custom Properties, Glassmorphism, CSS Grid, Flexbox |
-| **Interactivity** | Vanilla JavaScript (ES6+) |
-| **Animations** | CSS Keyframes, IntersectionObserver API |
-| **API** | GitHub REST API |
-| **Typography** | Google Fonts (Inter, Fira Code) |
-| **Icons** | Inline SVGs |
-| **Deployment** | Netlify (CI/CD, custom headers) |
+| **Frontend** | React.js (v19), HTML5, CSS3, Tailwind CSS, JavaScript (ES6+), Framer Motion |
+| **Mobile** | Flutter, Dart (iOS & Android) |
+| **Backend** | Node.js, Express, ASP.NET Core (Web API & MVC), C#, Entity Framework Core |
+| **Databases** | Microsoft SQL Server, Relational Modeling, Migrations |
+| **APIs & Security** | RESTful APIs, Swagger / OpenAPI, JWT Authentication, RBAC |
+| **Hosting & CI/CD** | GitHub Pages, Live Cloud Deployments |
 
 ---
 
@@ -64,63 +67,51 @@ API development skills, and backend architecture expertise.
 
 ```
 portfolio/
-├── index.html              # Main portfolio page
-├── cv.html                 # One-page CV with PDF export
+├── index.html              # Main full-stack portfolio page
+├── cv.html                 # Print-ready CV with PDF export
 ├── css/
-│   └── style.css           # Complete design system & theme
+│   └── style.css           # Complete design system, glassmorphism & theme
 ├── js/
-│   └── main.js             # Animations, GitHub API, interactions
+│   └── main.js             # Typing animation, GitHub API & interactions
 ├── img/
 │   ├── profile.jpg         # Profile photo
-│   ├── sugo-screenshot.webp
-│   ├── lapshop-screenshot.webp
-│   └── health-screenshot.png
+│   ├── qc-screenshot.png   # Natural Snacks QMS
+│   ├── hr-screenshot.png   # HR & Payroll Management
+│   ├── codeup-screenshot.png # CodeUp Academy Platform
+│   ├── english-app-screenshot.png # LingoFlow AI App
+│   └── studyai-screenshot.png # StudyAI Companion
 ├── sitemap.xml             # SEO sitemap
 ├── robots.txt              # Search engine directives
-├── netlify.toml            # Netlify deployment config
 └── README.md
 ```
 
 ---
 
-## 🌟 Sections
+## 🌟 Featured Projects
 
-### 1. Hero Section
-- Full-viewport with animated typing text cycling through roles
-- Circular profile photo with rotating gradient ring
-- Three CTA buttons: **View Projects**, **GitHub**, **Contact**
-- Live stats: Live Projects · Profile Views · Technologies · Deployed
+### 1. 🔹 Natural Snacks — Quality Control System (QMS)
+> Real-time industrial Quality Management System monitoring 15 extruder production stages, live OEE efficiency calculation, anomaly alarm logs, and non-conformance (NCR) incident reporting.
+- 🌐 **Live Demo:** [asmaelshowky70.github.io/Quality-Control-Natural-snacks](https://asmaelshowky70.github.io/Quality-Control-Natural-snacks/)
+- 📦 **Repository:** [AsmaelShowky70/Quality-Control-Natural-snacks](https://github.com/AsmaelShowky70/Quality-Control-Natural-snacks.git)
 
-### 2. About Me
-- Professional summary with backend focus
-- 9-card skills grid (ASP.NET Core, EF Core, SQL Server, C#, REST APIs, …)
-- Highlight cards: **Clean Architecture** · **Auth & Security** · **Production Deployed**
+### 2. 🔹 Natural Snacks — HR & Payroll Management
+> Offline-first Arabic HR and financial management system for factory labor and contractors. Automates attendance across shifts, wage computations, petty cash custody tracking, and direct Excel/PDF reporting.
+- 🌐 **Live Demo:** [asmaelshowky70.github.io/HR-NaturalSnaks](https://asmaelshowky70.github.io/HR-NaturalSnaks/)
+- 📦 **Repository:** [AsmaelShowky70/HR-NaturalSnaks](https://github.com/AsmaelShowky70/HR-NaturalSnaks.git)
 
-### 3. Featured Projects
+### 3. 🔹 CodeUp — Tech Academy & Learning Platform
+> Interactive full-stack coding platform featuring structured programming tracks, instant MCQ quizzes with confetti celebration feedback, video lecture catalog, and student activation codes.
+- 🌐 **Live Demo:** [asmaelshowky70.github.io/CodeUp](https://asmaelshowky70.github.io/CodeUp/)
+- 📦 **Repository:** [AsmaelShowky70/CodeUp](https://github.com/AsmaelShowky70/CodeUp.git)
 
-#### 🔹 Sugo Backend API
-> Production-ready ASP.NET Core Web API with JWT authentication, CRUD operations, DTOs, and Swagger documentation.
+### 4. 🔹 LingoFlow AI — English Practice Mobile App
+> Cross-platform Flutter mobile application for interactive spoken English practice via AI role-playing personas. Supports voice and text pipelines, gamified points economy, and an ASP.NET Core API backend.
+- 📦 **Repository:** [AsmaelShowky70/English-app](https://github.com/AsmaelShowky70/English-app.git)
 
-| | |
-|---|---|
-| 🌐 **Live** | [sugobackend.runasp.net/swagger](http://sugobackend.runasp.net/swagger/index.html) |
-| 📦 **Repo** | [AsmaelShowky70/SugoBackend-Api-](https://github.com/AsmaelShowky70/SugoBackend-Api-) |
-
-#### 🔹 LapShop — E-Commerce Platform
-> Full-featured ASP.NET Core MVC e-commerce site with Bootstrap UI, repository pattern, and full product management.
-
-| | |
-|---|---|
-| 🌐 **Live** | [lapshope.runasp.net](https://lapshope.runasp.net/) |
-| 📦 **Repo** | [AsmaelShowky70/LapShop](https://github.com/AsmaelShowky70/LapShop) |
-
-### 4. GitHub Repositories
-- Dynamic cards fetched from the GitHub REST API
-- Static fallback for offline / rate-limited scenarios
-
-### 5. Contact
-- Email, GitHub, LinkedIn, and WhatsApp links
-- Download CV button
+### 5. 🔹 StudyAI — Intelligent AI Study Companion
+> Next-generation SaaS educational web platform combining Computer Vision, NLP, and adaptive learning algorithms to convert study material into automated quizzes, flashcards, and academic progress analytics.
+- 🌐 **Live Demo:** [asmaelshowky70.github.io/Study-Ai](https://asmaelshowky70.github.io/Study-Ai/)
+- 📦 **Repository:** [AsmaelShowky70/Study-Ai](https://github.com/AsmaelShowky70/Study-Ai)
 
 ---
 
@@ -131,13 +122,13 @@ portfolio/
 git clone https://github.com/AsmaelShowky70/portfolio-.git
 cd portfolio-
 
-# Open in your browser (macOS / Linux / Windows)
+# Open in your browser (Windows / macOS / Linux)
+start index.html         # Windows
 open index.html          # macOS
 xdg-open index.html      # Linux
-start index.html         # Windows
 ```
 
-> **No build tools or dependencies required** — it's a fully static site that runs directly in any modern browser.
+> **No build tools or external dependencies required** — pure, fast static web architecture.
 
 ---
 
@@ -148,8 +139,8 @@ start index.html         # Windows
 | Channel | Link |
 |:-------:|:-----|
 | 📧 Email | [asmaelmohamed2025@gmail.com](mailto:asmaelmohamed2025@gmail.com) |
+| 💬 WhatsApp | [+20 120 879 4479](https://wa.me/201208794479) |
 | 💻 GitHub | [@AsmaelShowky70](https://github.com/AsmaelShowky70) |
-| 💬 WhatsApp | [+20 102 427 5208](https://wa.me/201024275208) |
 
 </div>
 
@@ -159,12 +150,10 @@ start index.html         # Windows
 
 This project is open source and available under the [MIT License](LICENSE).
 
----
-
 <div align="center">
 
 **Built with ❤️ by Ismail Mohamed**
 
-If you find this portfolio useful or inspiring, please ⭐ **star the repo** — it means a lot!
+If you find this portfolio useful, please ⭐ **star the repo**!
 
 </div>
